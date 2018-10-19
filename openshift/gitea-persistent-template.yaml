@@ -317,11 +317,11 @@ parameters:
 - description: Volume space available for data, e.g. 512Mi, 2Gi
   name: GITEA_VOLUME_CAPACITY
   required: true
-  value: 10Gi
+  value: 512Mi
 - description: Volume space available for postregs data, e.g. 512Mi, 2Gi
   name: DB_VOLUME_CAPACITY
   required: true
-  value: 10Gi
+  value: 512Mi
 - displayName: Database Username
   from: gitea
   value: gitea
